@@ -1,0 +1,2 @@
+# InfinitySlots
+plugin for pocketmine
