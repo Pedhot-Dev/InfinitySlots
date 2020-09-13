@@ -1,0 +1,5 @@
+name: InfinitySlot
+main: pedhot\InfinitySlot\Main
+api: 3.10.0
+author: Pedhott
+version: 1.0
