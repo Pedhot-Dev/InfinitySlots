@@ -1,6 +1,6 @@
 <?php
 
-namespace pedhot\InfinitySlot;
+namespace pedhot\InfinitySlots;
 
 use pocketmine\event\Listener;
 use pocketmine\event\server\QueryRegenerateEvent;
@@ -11,8 +11,7 @@ class Main extends PluginBase implements Listener
 {
     public function onEnable()
     {
-        Server::getInstance()->getPluginManager()->registerEvents($this, $this);
-        $this->getLogger()->info("[InfinitySlots] Enabled");
+        $this->getServer()->getPluginManager()->registerEvents($this, $this);
     }
 
     public function onQuery(QueryRegenerateEvent $ev)
