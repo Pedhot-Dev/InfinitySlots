@@ -1,5 +1,5 @@
-name: InfinitySlot
-main: pedhot\InfinitySlot\Main
+name: InfinitySlots
+main: pedhot\InfinitySlots\Main
 api: 3.10.0
 author: Pedhott
 version: 1.0
